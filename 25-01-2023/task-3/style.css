@@ -1,0 +1,14 @@
+img{
+    position: absolute;
+    top:80ppx;
+    left:80%;
+   
+}
+p{
+margin-top: 30px;
+font-size:20px;
+}
+.para{
+    display: flex;
+    flex-direction: row;
+}
