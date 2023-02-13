@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display message</title>
+    <style>
+div{
+    background-color: rgb(218, 171, 109);
+    height:100px;
+    opacity: 70%;
+}
+::placeholder{
+    text-align:center;
+}
+    </style>
+</head>
+<body>
+    <input type="text" id="give" placeholder="type something">
+<div id="display"></div>
+<script>
+    const give = document.querySelector('#give');
+const display = document.querySelector('#display');
+
+give.addEventListener('input', function() {
+  display.textContent = this.value;
+});
+</script>
+</body>
+</html>

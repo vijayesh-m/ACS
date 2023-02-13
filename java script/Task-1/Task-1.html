@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert box</title>
+    <style>
+#first{
+    background-color: brown;
+    width:30%;
+    height:30%;
+    margin:auto;
+    margin-bottom:5%;
+    text-align: center;
+}
+#second{
+    background-color: yellowgreen;
+    margin:auto;
+    width:30%;
+    height:30%;
+    margin-bottom:5%;
+    text-align: center;
+}#third{
+    background-color: green;
+    margin:auto;
+    width:30%;
+    height:30%;
+    margin-bottom:5%;
+    text-align: center;
+}#four{
+    background-color: blue;
+    margin:auto;
+    width:30%;
+    height:30%;
+    margin-bottom:5%;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+<div class="container" id="first">First</div>
+<div class="container" id="second">Second</div>
+<div class="container" id="third">Third</div>
+<div class="container" id="four">Four</div>
+<script>
+    const boxes = document.querySelectorAll('.container');
+let prevText = '';
+
+containers.forEach(container => {
+  container.addEventListener('click', function() {
+    let field = this.textContent;
+    box = box + field + '\n';
+    alert(box);
+  });
+});
+
+</script>
+</body>
+</html>

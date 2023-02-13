@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul{
+            margin-left:400px;
+            margin-top: 200px;
+            font-weight:bold;
+        }
+    </style>
+<script>
+function changeColor(list) {
+  var firstLetter = list.innerHTML[0];
+  if (firstLetter == 'a' || firstLetter == 'e' || firstLetter == 'i' || firstLetter == 'o' || firstLetter == 'u') {
+    list.style.backgroundColor = "red";
+  } else {
+    list.style.backgroundColor = "green";
+  }
+}
+</script>
+</head>
+<body>
+  <ul>
+    <li onclick="changeColor(this)">revathi</li>
+    <li onclick="changeColor(this)">dinesh</li>
+    <li onclick="changeColor(this)">vibunesh</li>
+    <li onclick="changeColor(this)">sankar</li>
+    <li onclick="changeColor(this)">ajith</li>
+  </ul>
+</body>
+</html>

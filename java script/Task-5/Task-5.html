@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Family Members</title> 
+	<style> 
+		li { 
+			list-style-type: none; 
+			cursor: pointer; 
+			font-size: 30px; 
+			margin-bottom: 20px; 
+            text-align:center;
+
+		} 
+        h1{
+            text-align:center; 
+        }
+	</style> 
+</head> 
+<body> 
+	<h1>Family Members</h1> 
+	<ul id="lists"> 
+		<li>Dad</li> 
+		<li>Mom</li> 
+		<li>Children</li> 
+		<li>Children</li> 
+		<li>Children</li> 
+	</ul> 
+	<script> 
+		const lists = document.getElementById("lists"); 
+		let count = 1; 
+		lists.addEventListener("click", function(event) { 
+			const target = event.target; 
+			if (count % 2 === 0) { 
+				target.style.color = "green"; 
+			} else { 
+				target.style.color = "red"; 
+			} 
+			count++; 
+		}); 
+	</script> 
+</body> 
+</htmlss

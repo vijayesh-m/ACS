@@ -1,0 +1,19 @@
+#background{
+    background-color: rgb(173, 115, 228);
+    width:80%;
+    height:700px;
+    margin:40px auto;
+    padding:20px 0 20px 20px;
+    border-radius:15px;
+    display:flex;
+}
+#left{
+    background-color:white;
+    width:25%;
+    height: 700px; 
+    border-radius: 10px 0 0 10px;
+}
+.downhead{
+    color:white;
+    padding-left:50%;
+}

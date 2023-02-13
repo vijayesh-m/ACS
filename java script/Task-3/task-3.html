@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Div alert message</title>
+  <script>
+    function borrow() {
+      var inputText = document.getElementById("text").value;
+      document.getElementById("textcase").innerHTML = inputText;
+      alert(inputText);
+    }
+  </script>
+</head>
+<body>
+  <input type="text" id="text">
+  <button onclick="borrow()">Show Text</button>
+  <div id="textcase"></div>
+</body>
+</html>
