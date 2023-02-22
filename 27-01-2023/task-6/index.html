@@ -12,49 +12,47 @@
     <h1>PRODUCT ORDER FORM</h1>
       <form>
         <label>FIRST NAME :
-          <input class="container" type="name" placeholder="Your First Name">
+          <input class="container first" type="name" placeholder="Your First Name">
         </label>
         
        <div class="last"><label>LAST NAME :
-          <input class="container" type="name" placeholder="Your Last Name">
+          <input class="container last " type="name" placeholder="Your Last Name">
         </label></div>
         <br>
         <label>EMAIL ADDRESS :
-          <input class="container" type="email" placeholder="Enter Your Email">
+          <input class="container sub" type="email" placeholder="Enter Your Email">
         </label><br>
         <label>PHONE NUMBER :
-          <input  class="container" type="number" placeholder="??????????">
+          <input  class="container sub" type="number" placeholder="??????????">
         </label><br>
         <label>BILLING ADDRESS :
-          <input class="address" type="name" placeholder="Billing Address">
+          <input class="address bill" type="name" placeholder="Billing Address">
         </label> <br>
         <label>YOUR ADDRESS :
-          <input class="address" type="name" placeholder="Your Address">
+          <input class="address your" type="name" placeholder="Your Address">
         </label> <br>
 
   
         <label>CITY :
-          <input class="container" type="name" placeholder="your city">
+          <input class="container city" type="name" placeholder="your city">
         </label>
         <div class="state">
         <label>STATE / PROVIENCE :
-          <input class="container" type="name" placeholder="Your state / provience">
+          <input class="container sub" type="name" placeholder="Your state / provience">
         </label>
         </div><br>
         <label>ZIP CODE:
-          <input class="container" type="name" placeholder="Zip code">
+          <input class="container zip" type="name" placeholder="Zip code">
         </label>
         <div class="country">
-        <label>COUNTRY :
-          <select >
+        <label >COUNTRY :
+          <select id="country" >
             <option>america</option>
             <option>brazil</option>
             <option>india</option>
           </select><br>
         </label>
         </div>
-      
-
         <br><input type="submit" value ="PLACE ORDER" id="place">
         <input type="reset" value="RESET" id="reset">
       </form>

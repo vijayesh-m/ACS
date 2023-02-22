@@ -39,16 +39,16 @@
     </style>
 </head>
 <body>
-<div class="container" id="first">First</div>
-<div class="container" id="second">Second</div>
-<div class="container" id="third">Third</div>
-<div class="container" id="four">Four</div>
+<div class="container sub" id="first">First</div>
+<div class="container sub" id="second">Second</div>
+<div class="container sub" id="third">Third</div>
+<div class="container sub" id="four">Four</div>
 <script>
-    const boxes = document.querySelectorAll('.container');
+    const boxes = document.querySelectorAll('.container sub');
 let field = '';
 
-boxes.forEach(container => {
-  container.addEventListener('click', function() {
+boxes.forEach(container sub => {
+  container sub.addEventListener('click', function() {
     let text = this.textContent;
     field = field + text + '\n';
     alert(field);
