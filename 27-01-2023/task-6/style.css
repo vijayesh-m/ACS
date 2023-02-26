@@ -7,21 +7,15 @@ body {
 
 form {
     background-color: rgb(17, 73, 66);
-    opacity: 70%;
+    opacity: 80%;
     width: 80%;
-    height: 50%;
     margin: auto;
     margin-top: 1%;
     padding: 20px;
-
+   
 }
 
-.state {
-    margin-left: 80px;
-    display: inline-block;
-}
-
-.country {
+.state,.country{
     margin-left: 80px;
     display: inline-block;
 }
@@ -29,22 +23,37 @@ form {
 input {
     margin-bottom: 20px;
     opacity: 50%;
+    height:25px;
+    background-color: rgb(17, 73, 66);
+    opacity:80%;
+    
 }
-
+p{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color:orange;
+}
 label {
     color: white;
-
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity:100%;
 }
 
 .container sub {
     padding-bottom: 20px;
     width: 150px;
-    height: 10px;
-    opacity: 50%;
+    height: 20px;
+    opacity: 50%;   
     
 }
 .sub{
     margin-left:50px;
+}
+.sub1{
+    margin-left:10px;
 }
 .first{
     margin-left:85px;
@@ -59,53 +68,54 @@ label {
     margin-left:50px;
 }
 .city{
-    margin-left:130px;
+    margin-left:139px;
 }
 .zip{
-    margin-left:100px;
+    margin-left:104px;
 }
 #country{
-    margin-left:120px;
+    margin-left:124px;
 }
 ::placeholder {
-    opacity: 80%;
+    color:white;
 }
-
+.phone{
+    width: 30px;
+    margin-left: 50px;
+}
 select {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     width: 150px;
-    height: 20px;
+    height: 30px;
+    opacity:50%;
 }
 
 #place {
-    margin-left: 20%;
+    margin-left: 185px;
     padding: 0 25px;
     color: white;
-    background-color: orange;
+    background-color: skyblue;
     border: none;
-    opacity: 100%;
-    height: 40px;
-    border-radius: 10px;
+    height: 30px;
+    opacity:100%;
 }
 
 #reset {
     margin-left: -20%;
-    margin-left: 30px;
+    margin-left: 13px;
     padding: 0 25px;
-    background-color: blue;
-    color: white;
+    background-color: orange;
+    color: rgb(218, 210, 210);
     border: none;
     opacity:100%;
-    height:40px;
-    border-radius: 10px;
+    height:30px;
+  
 }
 
 .address {
     width: 600px;
-    height: 40px;
-  
+    height: 25px;
 }
-
 .last {
     margin-left: 80px;
     display: inline-block;
@@ -113,5 +123,10 @@ select {
 
 h1 {
     text-align: center;
-    color: rgb(3, 2, 2);
+    color: rgb(245, 241, 241);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 10px;
+}
+form,input{
+    border-style: solid; border-width: 1px; border-color: #FFFFFF;
 }

@@ -10,6 +10,7 @@
   </head>
   <body>
     <h1>PRODUCT ORDER FORM</h1>
+    <div class="focus">
       <form>
         <label>FIRST NAME :
           <input class="container first" type="name" placeholder="Your First Name">
@@ -23,7 +24,8 @@
           <input class="container sub" type="email" placeholder="Enter Your Email">
         </label><br>
         <label>PHONE NUMBER :
-          <input  class="container sub" type="number" placeholder="??????????">
+          <input type="name" class="phone" placeholder="+??">
+          <input  class="container sub1" type="name" placeholder="??????????">
         </label><br>
         <label>BILLING ADDRESS :
           <input class="address bill" type="name" placeholder="Billing Address">
@@ -34,7 +36,7 @@
 
   
         <label>CITY :
-          <input class="container city" type="name" placeholder="your city">
+          <input class="container city" type="name" placeholder="Your city">
         </label>
         <div class="state">
         <label>STATE / PROVIENCE :
@@ -46,7 +48,7 @@
         </label>
         <div class="country">
         <label >COUNTRY :
-          <select id="country" >
+          <select id="country" aria-placeholder="Country" >
             <option>america</option>
             <option>brazil</option>
             <option>india</option>
@@ -56,5 +58,7 @@
         <br><input type="submit" value ="PLACE ORDER" id="place">
         <input type="reset" value="RESET" id="reset">
       </form>
+      <p>©2017 Product Order Form.All Rights Reserved|Design By <a href="#">vijayesh</a></p>
+    </div>
   </body>
 </html>
