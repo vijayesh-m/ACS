@@ -11,10 +11,15 @@ h2 {
 }
 
 
-img {
+.total {
     width: 350px;
     height: 300px;
     position: absolute;
     top: calc((100% - 300px) /2);
     left: calc((100% - 350px) /2);
+}
+.firstimg{
+    width: 350px;
+    height: 300px;
+    padding-right:10px;
 }
