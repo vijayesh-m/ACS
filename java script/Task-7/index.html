@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-7</title>
+  <style>
+    *{
+  font-family:sans-serif;
+} 
+p{
+            height: 100px;
+            width: 800px;
+            background-color: grey;
+   border-radius:10px;
+        }
+
+button{
+            height: 40px;
+            width: 90px;
+            display: block;
+            margin-top: 30px;
+            background-color: green;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+  margin-right:70%;}
+  </style>
+</head>
+<body>
+  <div class="sum">
+        <h1>Divisible Numbers</h1>
+      <div class="main">
+    <label for= "rangeFrom">Range From: </label>
+    <input id="rangeFrom" type="number" placeholder="Range From">
+    <label for= "rangeTo">Range To: </label>
+    <input id="rangeTo" type="number" placeholder="Range To">
+    <label for= "divisibleValue">Divisible Value: </label>
+    <input id="divisibleValue" type="number" placeholder="Divisible Value">
+      </div>
+    <button id="button" type= "submit">submit</button>
+    <p id="values"></p>
+  </div>
+</body>
+<script>
+     function divisible() {
+            let rangeFrom = document.getElementById('rangeFrom').value;    
+            let rangeTo = document.getElementById('rangeTo').value;      
+            let divisibleValue  = document.getElementById('divisibleValue').value;
+            for (let i=rangeFrom;i<=rangeTo;i++){
+                if((i % divisibleValue) == 0){
+                    document.getElementById('values').innerHTML +=[i+"   "];
+                }
+            }
+        }
+        button.addEventListener('click', divisible)
+</script>
+</html>

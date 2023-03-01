@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate color </title>
+   <style>
+    #button{
+           width: 200px;
+           height: 40px;
+            position: absolute;
+            top: calc(50% - 20px);
+            left: calc(50% - 100px);
+            border-radius: 20px;
+
+        }
+        #number{
+           text-align: center;
+           font-size: 26px;
+        }
+   </style>
+</head>
+<body id="container">
+    <button id="button">Generate color</button>
+    <div id="number"></div>
+    <script>
+                var countcolor={};
+       function generateColor(){
+        //create an array with values of colours
+        var list=['red','green','blue','grey','palegreen','orange','pink','violet','yellow','purple'];
+        //for picking random colour ,random method was used
+        var random=Math.floor(Math.random()*10);
+        var colour=list[random];
+        document.getElementById("container").style.background=colour;
+
+        countcolor[colour]=(countcolor[colour] || 0) + 1;
+        console.log(countcolor);
+        //for counting repeated colours
+        document.getElementById("number").innerHTML=countcolor[colour];
+       }
+      button.addEventListener('click',generateColor);
+    </script>
+</body>
+</html>
