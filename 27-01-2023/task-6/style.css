@@ -50,13 +50,13 @@ label {
     
 }
 .sub{
-    margin-left:50px;
+    margin-left:46px;
 }
 .sub1{
-    margin-left:10px;
+    margin-left:8px;
 }
 .first{
-    margin-left:85px;
+    margin-left:76px;
 }
 .last{
     margin-left:70px;
@@ -65,13 +65,13 @@ label {
     margin-left:35px;
 }
 .your{
-    margin-left:50px;
+    margin-left:48px;
 }
 .city{
-    margin-left:139px;
+    margin-left:131px;
 }
 .zip{
-    margin-left:104px;
+    margin-left:98px;
 }
 #country{
     margin-left:124px;
@@ -81,7 +81,7 @@ label {
 }
 .phone{
     width: 30px;
-    margin-left: 50px;
+    margin-left: 42px;
 }
 select {
     padding-bottom: 25px;
@@ -113,7 +113,7 @@ select {
 }
 
 .address {
-    width: 600px;
+    width: 635px;
     height: 25px;
 }
 .last {
